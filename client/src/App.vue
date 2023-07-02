@@ -39,7 +39,7 @@ const deleteTodo = (id) => {
       <form class="flex flex-col gap-2 items-center content-center" @submit.prevent="addTodo">
         <h3 class="text-xl">What are your todos?</h3>
         <div class="flex gap-1">
-          <input class="text-center appearance-none bg-slate-600  focus:outline-none focus:border-white" type="text"
+          <input class="appearance-none bg-inherit focus:outline-none focus:border-white" type="text"
             placeholder="Enter a todo here..." v-model="input_content" />
           <input class="bg-blue-500 hover:cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             type="submit" value="Add Todo" />
